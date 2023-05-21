@@ -1,12 +1,13 @@
 # Nuxt 3 Minimal Starter
 
 # GitHub Pages
+```
 npm run deploy
 NUXT_APP_BASE_URL=/KEN_SITE
 ssr:false
 npm run generate
 npm run gh-pa8es-deploy
-
+```
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 ## Setup
