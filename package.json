@@ -8,7 +8,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "gh-pages-deploy": "gh-pages --dotfiles --dist dist",
-    "deploy": "gh-pages -d dist"
+    "deploy": "nuxt generate && gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.7.0",
@@ -19,6 +19,7 @@
   "dependencies": {
     "@quasar/extras": "^1.16.4",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^5.0.0",
     "quasar": "^2.12.0"
   }
 }
