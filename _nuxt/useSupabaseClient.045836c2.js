@@ -1,0 +1,1 @@
+import{y as n,z as o,A as i}from"./entry.ff4d59ff.js";const r=()=>{var t;const e=n(),a=o(),s=a.value?`Bearer ${a.value}`:void 0,u=((t=e._supabaseClient)==null?void 0:t.headers.Authorization)!==s;return(!e._supabaseClient||u)&&(e._supabaseClient=i()),e._supabaseAuthClient};export{r as u};
